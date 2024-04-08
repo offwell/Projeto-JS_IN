@@ -1,9 +1,20 @@
 body{
-  background-color: #e8e8e8;
+  background-image: url(img/5651752.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+body::after{
+  filter: blur(10px);
+}
 
+.btn-danger {
+  color: #fff;
+  background-color: #dc354600;
+  border-color: #dc354600;
 }
 
 #modal{
