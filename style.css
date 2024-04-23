@@ -1,5 +1,5 @@
 body{
-  background-image: url(img/5651752.jpg);
+  /* background-image: url(img/5651752.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: fixed;
@@ -12,9 +12,9 @@ body::after{
 }
 
 .btn-danger {
-  color: #fff;
-  background-color: #dc354600;
-  border-color: #dc354600;
+  color: #ffffff;
+  background-color: #fa3d50;
+  border-color: #a11826;
 }
 
 #modal{

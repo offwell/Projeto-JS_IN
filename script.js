@@ -33,8 +33,9 @@ function salvarTarefa(event) {
                 <input class="form-check-input" type="checkbox" value="" id="checkbox${Date.now()}">
             </div>
             <h3>${tarefaAtual}</h3>
-            <button type="button" class="btn btn-danger deletarBtn">🗑️</button>
-        `;
+            <button type="button" class="btn btn-danger deletarBtn">Excluir</button>
+            `;
+            // 🗑️
 
         $listaTarefa.appendChild(novoItemTarefa);
 
